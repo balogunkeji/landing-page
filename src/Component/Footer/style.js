@@ -28,17 +28,5 @@ export const FooterLayout = styled.div`
    font-size: 1rem;
   }
  }
-
- .flex{
-  padding: 60px 0 40px 0;
-
-  @media (max-width: 768px){
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); 
-  }
- }
-.flex1{
- padding: 20px 200px 10px 150px
-}
   
 `

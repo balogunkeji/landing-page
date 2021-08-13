@@ -5,7 +5,7 @@ import { Flex, Box, Text, Container, Divider } from "@chakra-ui/react";
 function Footer() {
 	return (
 		<FooterLayout>
-			<Flex justifyContent="space-evenly" alignContent="space-evenly" className="flex">
+			<Flex justifyContent="space-between" alignItems="space-between" p="40px 20px" flexDirection={{base:"column", md:"row", lg:"row", xl:"row"}}>
 				<Box>
 					<Text as="h1" color="grey">Space</Text>
 					<Container
@@ -20,18 +20,18 @@ function Footer() {
 						vel pretium tellus accumsan semper.
 					</Container>
 				</Box>
-				<Box>
-					<Text as="h3" ml="15px" color="grey">
+				<Box pt={{base:"25px"}}>
+					<Text as="h3" ml="15px" color="grey" >
 						Pages
 					</Text>
-     <Container color="white" maxW="container.md" pt="25px" >
+     <Container color="white" maxW="container.md" pt="20px" >
        <Text pt="10px">Templates</Text>
        <Text pt="10px">Price</Text>
        <Text pt="10px">Help</Text>
        <Text pt="10px">Contact</Text>
      </Container>
 				</Box>
-				<Box>
+				<Box pt={{base:"25px"}}>
 					<Text as="h3" color="grey" ml="15px">
 						Demos
 					</Text>
@@ -41,7 +41,7 @@ function Footer() {
        <Text pt="10px">Classic theme</Text>
      </Container>
 				</Box>
-				<Box>
+				<Box pt={{base:"25px"}}>
 					<Text as="h3" color="grey" ml="15px">
 						Resources
 					</Text>
@@ -51,7 +51,7 @@ function Footer() {
 				</Box>
 			</Flex>
    <Divider />
-   <Flex justifyContent="space-between" align="center" className="flex1">
+   <Flex justifyContent="space-between" align="center" padding= {{base:"20px 20px 10px 20px", md:"20px 100px 10px 100px ", lg: " 20px 150px 10px 100px", xl:"20px 200px 10px 150px"}}>
     <Text color="grey">© 2019-2020 All Rights Reserved.</Text>
     <Text color="white">Terms of service</Text>
    </Flex>

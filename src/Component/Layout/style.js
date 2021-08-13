@@ -70,7 +70,7 @@ overflow-x: hidden;
 
 
 .container{
-  @media (max-width: 480px){
+  @media (max-width: 768px){
     display: flex;
     flex-direction: column;
     padding: 20px 0

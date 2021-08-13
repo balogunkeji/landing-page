@@ -91,11 +91,13 @@ export const people = [
 ];
 
 export function Card() {
+	
 	return (
 		<>
 		<Grid templateColumns="repeat(8, 1fr)" gap={5}>
-			{card.map((cards) => (
+			{card.map((cards, index) => (
 				<Box
+				key={index}
 					w="300px"
 					h="270px"
 					boxShadow="xl"
@@ -135,8 +137,8 @@ export function Card() {
 export function Cards() {
 	return (
 		<Grid templateColumns="repeat(auto-fit, minmax(300px, 1fr))" gap={3} placeItems="center">
-			{cards.map((card) => (
-				<Box
+			{cards.map((card, index) => (
+				<Box key={index}
 					w="300px"
 					h="270px"
 					boxShadow="xl"
@@ -171,14 +173,14 @@ export function Cards() {
 export function People() {
 	return (
 		<Grid templateColumns="repeat(auto-fit, minmax(300px, 1fr))" gap={6} placeItems="center">
-			{people.map((card) => (
-				<Box>
-					<Image src={card.img} maxW="100%" />
+			{people.map((card, index) => (
+				<Box key={index}>
+					<Image src={card.img} maxW="100%" paddingBottom="15px"/>
 					<Box textAlign="center">
 						<Text as="h1" fontWeight="extrabold">
 							{card.h1}
 						</Text>
-						<Text>
+						<Text paddingBottom="20px">
 							{card.p}
 						</Text>
 					</Box>

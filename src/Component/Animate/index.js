@@ -1,11 +1,11 @@
 import { Images } from "./imageData";
-// import { Flex, Box, Image, Text, Container } from "@chakra-ui/react";
+import {  Button } from "@chakra-ui/react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Section } from "./style";
 
 function Animate() {
-	const [image, setImages] = useState(Images);
+	const image = Images
 	const [index, setIndex] = React.useState(0);
 
 	useEffect(() => {
@@ -51,12 +51,12 @@ function Animate() {
 					);
 				})}
 			</div>
-   <button className="prev" onClick={() => setIndex(index - 1)}>
-					<AiOutlineArrowLeft />
-				</button>
-				<button className="next" onClick={() => setIndex(index + 1)}>
-					<AiOutlineArrowRight />
-				</button>
+   <Button className="prev" width="50px" m="20px 10px" onClick={() => setIndex(index - 1)}>
+			<AiOutlineArrowLeft fontSize="20px" />
+		</Button>
+		<Button className="next" width="50px" m="20px 10px" onClick={() => setIndex(index + 1)}>
+			<AiOutlineArrowRight fontSize="20px"/>
+		</Button>
 		</Section>
 	);
 }

@@ -16,24 +16,33 @@ export const Section = styled.section`
 article{
  position: absolute;
   transition: .3s all linear;
+  margin: auto;
+  height: 800px;
+  width: 700px;
 
  img{
-  width: 700px;
-  max-width: 100%;
+ max-width: 100%;
+  height: 100%;
+  object-fit: contain;
  }
- article.activeSlide {
+
+}
+
+
+.lastSlide {
+  transform: translateX(-100%);
+}
+.nextSlide {
+  transform: translateX(100%);
+}
+
+
+.activeSlide {
   opacity: 1;
   transform: translateX(0);
 }
-article.lastSlide {
-  transform: translateX(-100%);
-}
-article.nextSlide {
-  transform: translateX(100%);
-}
-}
 
-.prev,
+/* .prev,
 .next {
   margin-top: 30px;
   transform: translateY(-50%);
@@ -59,6 +68,6 @@ article.nextSlide {
 }
 .next {
   right: 0;
-}
+} */
 
 `

@@ -1,7 +1,6 @@
 import React from "react";
-import { Flex, Box, Image, Text, Container, Button } from "@chakra-ui/react";
+import { Flex, Box, Image, Text, Container} from "@chakra-ui/react";
 import { Pagelayout } from "./style";
-import Slider from "../../assets/PNG/slider1.png";
 import Sliders from "../../assets/PNG/slider2.png";
 import Round1 from "../../assets/PNG/round1.png";
 import Lady2 from "../../assets/PNG/grid2.png";
@@ -19,7 +18,7 @@ function PageLayout() {
 				marginBottom="35%"
 				pt="40px"
 				pb="50px">
-				<Box pl={{base: "10px", md:"50px", lg:"100px", xl: "300px"}}>
+				<Box pl={{base: "10px", md:"50px", lg:"100px", xl: "300px"}} m={{base:"auto"}}>
 					<Box>
 						<Text
 							as="h3"
@@ -33,9 +32,9 @@ function PageLayout() {
 							as="h1"
 							pb="40px"
 							fontWeight="700"
-							width={{base: "100%", md:"100%",  lg:"90%", xl: "70%"}}
+							width={{base: "100%", md:"100%",  lg:"90%", xl: "80%"}}
 							lineHeight="1.7"
-							fontSize={{base: "2rem", md:"3.5rem",  lg:"3.5rem", xl: "4rem"}}>
+							fontSize={{base: "3rem", md:"4rem",  lg:"4rem", xl: "4rem"}}>
 							Convallis turpis erat tempus, viverra aliquet.{" "}
 						</Text>
 						<button className="button">Get In Touch</button>
@@ -61,7 +60,7 @@ function PageLayout() {
 						</Flex>
 					</Box>
 				</Box>
-				<Box w="950px" h="650px" className="anime" >
+				<Box w={{base: "400px", md:"600px", lg:"960px", xl:"960px"}} h="670px" className="anime" margin="auto" maxW="100%">
 					<Animate mr="10px" />
 				</Box>
 			</Flex>
@@ -75,7 +74,7 @@ function PageLayout() {
 					<Box margin={{base: "100px auto 0 auto", md:"50px auto 0 auto",  lg:"-200px auto 0 auto", xl: "-300px 0 auto 0 auto"}}>
 						<Image src={Lady} alt="lady" width={{base: "100%", md:"85%",  lg:"100%", xl: "100%"}} maxW="100%"/>
 					</Box>
-					<Box pl={{base: "10px", md:"10px",  lg:"30px", xl: "30px"}} mt={{base: "100px", md:"50px",  lg:"-350px", xl: "-400px"}}>
+					<Box pl={{base: "10px", md:"10px",  lg:"30px", xl: "30px"}} mt={{base: "100px", md:"50px",  lg:"-0px", xl: "-400px"}}>
 						<Container  maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}}>
 							<Text
 								fontWeight="700"

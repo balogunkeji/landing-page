@@ -74,7 +74,7 @@ function PageLayout() {
 					<Box margin={{base: "100px auto 0 auto", md:"50px auto 0 auto",  lg:"-200px auto 0 auto", xl: "-300px 0 auto 0 auto"}}>
 						<Image src={Lady} alt="lady" width={{base: "100%", md:"85%",  lg:"100%", xl: "100%"}} maxW="100%"/>
 					</Box>
-					<Box pl={{base: "10px", md:"10px",  lg:"30px", xl: "30px"}} mt={{base: "100px", md:"50px",  lg:"-0px", xl: "-400px"}}>
+					<Box pl={{base: "5px", md:"10px",  lg:"30px", xl: "30px"}} mt={{base: "100px", md:"50px",  lg:"-250px", xl: "-400px"}}>
 						<Container  maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}}>
 							<Text
 								fontWeight="700"
@@ -91,7 +91,7 @@ function PageLayout() {
 								sit ipsum malesuada a, duis volutpat.
 							</Text>
 						</Container>
-						<Image src={Lady2} alt="lady" m={{base: " 10px auto", md:" 20px auto",  lg:" 40px 10px 10px  10px", xl: " 70px 20px 20px 20px"}} maxW="100%" width="85%"/>
+						<Image src={Lady2} alt="lady" m={{base: " 40px auto 10px auto", md:" 20px auto",  lg:" 40px 10px 10px  10px", xl: " 70px 20px 20px 20px"}} maxW="100%" width="100%"/>
 					</Box>
 				</Flex>
 				<Flex p={{base: "10px 0"}} 	flexDirection={{base: "column", md: "row", lg: "row", xl: "row"}} margin={{base:"auto"}}>

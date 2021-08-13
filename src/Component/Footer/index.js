@@ -5,7 +5,7 @@ import { Flex, Box, Text, Container, Divider } from "@chakra-ui/react";
 function Footer() {
 	return (
 		<FooterLayout>
-			<Flex justifyContent="space-between" alignItems="space-between" padding= {{base:"20px 5px 10px 20px", md:"20px 70px 10px 70px ", lg: " 20px 150px 10px 100px", xl:"20px 200px 10px 150px"}} flexDirection={{base:"column", md:"row", lg:"row", xl:"row"}}>
+			<Flex justifyContent="space-between" alignItems="space-between" padding= {{base:"20px 5px 10px 5px", md:"20px 30px 10px 30px ", lg: " 20px 150px 10px 100px", xl:"20px 200px 10px 150px"}} flexDirection={{base:"column", md:"row", lg:"row", xl:"row"}}>
 				<Box>
 					<Text as="h1" color="grey">Space</Text>
 					<Container
@@ -51,7 +51,7 @@ function Footer() {
 				</Box>
 			</Flex>
    <Divider />
-   <Flex justifyContent="space-between" align="center" padding= {{base:"20px 20px 10px 20px", md:"20px 100px 10px 100px ", lg: " 20px 150px 10px 100px", xl:"20px 200px 10px 150px"}}>
+   <Flex justifyContent="space-between" align="center" padding= {{base:"20px 20px 10px 20px", md:"20px 30px 10px 30px ", lg: " 20px 150px 10px 100px", xl:"20px 200px 10px 150px"}}>
     <Text color="grey">© 2019-2020 All Rights Reserved.</Text>
     <Text color="white">Terms of service</Text>
    </Flex>

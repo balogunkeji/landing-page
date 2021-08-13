@@ -33,7 +33,7 @@ function PageLayout() {
 							pb="40px"
 							fontWeight="700"
 							width={{base: "100%", md:"100%",  lg:"90%", xl: "80%"}}
-							lineHeight="1"
+							lineHeight="1.2"
 							fontSize={{base: "3rem", md:"4rem",  lg:"4rem", xl: "4rem"}}>
 							Convallis turpis erat tempus, viverra aliquet.{" "}
 						</Text>
@@ -60,7 +60,7 @@ function PageLayout() {
 						</Flex>
 					</Box>
 				</Box>
-				<Box w={{base: "400px", md:"600px", lg:"960px", xl:"960px"}} h="670px" className="anime" margin="auto" maxW="100%">
+				<Box w={{base: "400px", md:"600px", lg:"960px", xl:"960px"}} h="700px" className="anime" margin="auto" maxW="100%">
 					<Animate mr="10px" />
 				</Box>
 			</Flex>

@@ -32,10 +32,10 @@ function PageLayout() {
 							as="h1"
 							pb="40px"
 							fontWeight="700"
-							width={{base: "100%", md:"100%",  lg:"90%", xl: "80%"}}
+							width={{base: "100%", md:"100%",  lg:"90%", xl: "70%"}}
 							lineHeight="1.2"
 							fontSize={{base: "3rem", md:"4rem",  lg:"4rem", xl: "4rem"}}>
-							Convallis turpis erat tempus, viverra aliquet.{" "}
+							Convallis turpis erat tempus, viverra aliquet
 						</Text>
 						<button className="button">Get In Touch</button>
 					</Box>
@@ -65,7 +65,7 @@ function PageLayout() {
 				</Box>
 			</Flex>
 			{/* phase2 */}
-			<Box padding={{base: "0 10px", md: "0 20px", lg: "0 50px 0 100px", xl: "0 100px 0 300px"}} bg="#D8F6FF" className="phase2">
+			<Box padding={{base: "0 10px", md: "0 20px", lg: "0 50px 0 100px", xl: "0 100px 0 15%"}} bg="#D8F6FF" className="phase2">
 				<Flex
 					justifyContent="space-between"
 					alignContent="center"
@@ -74,7 +74,7 @@ function PageLayout() {
 					<Box margin={{base: "100px auto 0 auto", md:"50px auto 0 auto",  lg:"-200px auto 0 auto", xl: "-300px 0 auto 0 auto"}}>
 						<Image src={Lady} alt="lady" width={{base: "100%", md:"85%",  lg:"100%", xl: "100%"}} maxW="100%"/>
 					</Box>
-					<Box pl={{base: "5px", md:"10px",  lg:"30px", xl: "30px"}} mt={{base: "100px", md:"50px",  lg:"-250px", xl: "-400px"}}>
+					<Box pl={{base: "5px", md:"10px",  lg:"30px", xl: "30px"}} mt={{base: "100px", md:"50px",  lg:"-200px", xl: "-400px"}}>
 						<Container  maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}}>
 							<Text
 								fontWeight="700"
@@ -98,7 +98,7 @@ function PageLayout() {
 					<Box mr={{base: "0", md:"20px", lg: "30px", xl:"40px"}}>
 						<Image src={Sliders} width={{base: "100%", md:"85%",  lg:"100%", xl: "100%"}} maxW="100%"/>
 					</Box>
-					<Container maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}} margin="auto" m={{base:"30px auto", xl: "150px 40px auto auto"}}>
+					<Container maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}} margin="auto" m={{base:"30px auto", xl: "auto 40px auto auto"}}>
 						<Text as="h2" fontSize={{base: "1.5rem", md:"2rem",  lg:"2.6rem", xl: "3rem"}} pt={{base: "25px"}} textAlign={{base:"left"}}>The best design for your studio website</Text>
 						<Text fontSize={{base: "1.3rem", md:"1.3rem",  lg:"1.3rem", xl: "1.6rem"}} p={{base:"10px 0"}}>
 							Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam
@@ -111,7 +111,7 @@ function PageLayout() {
 				</Flex>
 				<Flex pb="100px" justifyContent="space-between" flexDirection={{base: "column", md: "row", lg: "row", xl: "row"}} margin={{base:"auto"}}>
 					<Container
-						maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}} margin="auto" m={{base:"30px auto", xl: "150px 40px auto auto"}}>
+						maxW={{base: "none", md: "container.sm", xl: "container.md", lg: "container.md"}} margin="auto" m={{base:"30px auto", xl: "auto 40px auto auto"}}>
 						<Text as="h2"fontSize={{base: "1.5rem", md:"2rem",  lg:"2.6rem", xl: "3rem"}} pt={{base: "5px"}} textAlign={{base:"left"}}>The best design for your studio website</Text>
 						<Text fontSize={{base: "1.3rem", md:"1.3rem",  lg:"1.3rem", xl: "1.6rem"}} p={{base:"10px 0"}}>
 							Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam
@@ -127,8 +127,8 @@ function PageLayout() {
 				</Flex>
 			</Box>
 
-			<Box padding={{base: "40px 0", md:"60px 0", lg:"120px 0", xl: "150px 0"}}>
-				<Box padding={{base: "0 10px", md: "0 20px", lg: "0 50px 0 100px", xl: "0 100px 0 300px"}}>
+			<Box padding={{base: "40px 0", md:"60px 0", lg:"120px 0", xl: "150px 0 100px 0"}}>
+				<Box padding={{base: "0 10px", md: "0 20px", lg: "0 50px 0 100px", xl: "0 100px 0 15%"}}>
 					<Text
 						as="h3"
 						color="#000"
@@ -144,7 +144,7 @@ function PageLayout() {
 				</Box>
 			</Box>
 			{/* Yellow */}
-			<Box className="box" width={{base: "100%", md:"95%", lg: "85%", xl: "82%"}}>
+			<Box className="box" width={{base: "100%", md:"95%", lg: "89%", xl: "82%"}}>
 				<Box margin={{base: "12px", md:"25px", lg:"40px", xl:"50px"}}>
 					<Box w={{base: "100%", md:"70%", lg:"65%", xl: "50%"}} padding={{base: "10px", md:"25px", lg:"40px", xl:"50px"}}>
 						<Text
@@ -235,7 +235,7 @@ function PageLayout() {
 				</Box>
 			</Box>
 
-			<Box margin={{base: "50px auto", md: "70px", lg:"130px", xl:"150px" }}>
+			<Box margin={{base: "50px auto", md: "70px", lg:"130px 50px", xl:"150px" }}>
 				<Text as="h2" textAlign="center" fontSize={{base: "2rem", md:"2rem",  lg:"2.5rem", xl: "2.5rem"}}>
 					Our LeaderShip
 				</Text>
@@ -247,7 +247,7 @@ function PageLayout() {
 				<People />
 			</Box>
 
-			<Box padding={{base:"50px 20px",md:"50px 30px", lg:"100px 120px", xl:"100 150px"}} textAlign="left" className="boxs">
+			<Box padding={{base:"50px 20px",md:"50px 30px", lg:"100px 120px", xl:"100px 100px"}} textAlign="left" className="boxs">
 				<Container maxW="container.md">
 					<Text fontWeight="bold" fontSize="1.5rem">
 						“Every single person comes away and says - wow that's a really slick

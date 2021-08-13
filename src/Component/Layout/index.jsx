@@ -18,7 +18,7 @@ function PageLayout() {
 				marginBottom="35%"
 				pt="40px"
 				pb="50px">
-				<Box pl={{base: "10px", md:"50px", lg:"100px", xl: "300px"}} m={{base:"auto"}}>
+				<Box pl={{base: "10px", md:"50px", lg:"100px", xl: "15%"}} m={{base:"auto"}}>
 					<Box>
 						<Text
 							as="h3"
@@ -126,6 +126,7 @@ function PageLayout() {
 					</Box>
 				</Flex>
 			</Box>
+
 			<Box padding={{base: "40px 0", md:"60px 0", lg:"120px 0", xl: "150px 0"}}>
 				<Box padding={{base: "0 10px", md: "0 20px", lg: "0 50px 0 100px", xl: "0 100px 0 300px"}}>
 					<Text
@@ -142,6 +143,7 @@ function PageLayout() {
 					<Card />
 				</Box>
 			</Box>
+			{/* Yellow */}
 			<Box className="box" width={{base: "100%", md:"95%", lg: "85%", xl: "82%"}}>
 				<Box margin={{base: "12px", md:"25px", lg:"40px", xl:"50px"}}>
 					<Box w={{base: "100%", md:"70%", lg:"65%", xl: "50%"}} padding={{base: "10px", md:"25px", lg:"40px", xl:"50px"}}>
@@ -228,7 +230,7 @@ function PageLayout() {
 						</Text>
 					</Flex>
 				</Box>
-				<Box margin={{base: "15px", md:"15px 50px", lg: "15px 80px", xl: "20px 100px"}}>
+				<Box margin={{base: "15px", md:"15px 20px", lg: "15px 30px", xl: "20px 50px"}}>
 					<Cards />
 				</Box>
 			</Box>

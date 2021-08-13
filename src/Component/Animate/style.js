@@ -21,7 +21,7 @@ article{
   width: 700px;
 
  img{
- max-width: 100%;
+ min-width: 100%;
   height: 100%;
   object-fit: cover;
  }

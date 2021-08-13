@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const FooterLayout = styled.div`
  width: 100vw;
  height: fit-content;
- min-height: 40%;
+ min-height: 30%;
  bottom: 0;
  top: 0;
  background: #23242A;

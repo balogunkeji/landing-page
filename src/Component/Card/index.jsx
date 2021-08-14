@@ -94,7 +94,7 @@ export function Card() {
 	
 	return (
 		<>
-		<Grid templateColumns="repeat(4, 1fr)" gap={5}>
+		<Grid templateColumns="repeat(8, 1fr)" gap={5}>
 			{card.map((cards, index) => (
 				<Box
 				key={index}

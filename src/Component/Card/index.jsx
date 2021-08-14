@@ -175,7 +175,7 @@ export function People() {
 		<Grid templateColumns="repeat(auto-fit, minmax(270px, 1fr))" gap={3} placeItems="center">
 			{people.map((card, index) => (
 				<Box key={index}>
-					<Image src={card.img} maxW="100%" width="90%" height="80%" paddingBottom="15px"/>
+					<Image src={card.img} maxW="100%" width="95%" height="80%" paddingBottom="15px"/>
 					<Box textAlign="center">
 						<Text as="h1" fontWeight="extrabold">
 							{card.h1}
